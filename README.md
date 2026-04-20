@@ -11,7 +11,7 @@
 
 #### Inference Course
 1. Ray Orchestration
-2. Inference: vLLM, SGLang
+2. vLLM, SGLang: Inference
 * Paged Attention
 * Radix Attention
 * Speculative Decoding
