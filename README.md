@@ -37,27 +37,17 @@
   * https://github.com/SemiAnalysisAI/InferenceX
 ***
 
-W1
-Engine Initialization
-W2
-Tokenization
-W3
-Scheduling & Paged Attention
-W4
-Prefill (Parallel Forward Pass)
-W5
-Decode (Autoregressive)
-W6
-Sampling (temp, top_k, top_p)
-W7
-Continuous Batching
-W8
-Chunked Prefill
-W9
-Speculative Decoding
-W10
-Tensor Parallelism
-W11
-Disaggregated P/D
-W12
-Benchmarking & Metrics
+| Lecture ||
+|---|---|
+| W1 - Engine Initialization ||
+| W2 - Tokenization ||
+| W3 - Scheduling & Paged Attention ||
+| W4 - Prefill (Parallel Forward Pass) ||
+| W5 - Decode (Autoregressive) ||
+| W6 - Sampling (temp, top_k, top_p) ||
+| W7 - Continuous Batching ||
+| W8 - Chunked Prefill ||
+| W9 - Speculative Decoding ||
+| W10 - Tensor Parallelism ||
+| W11 - Disaggregated P/D ||
+| W12 - Benchmarking & Metrics ||
