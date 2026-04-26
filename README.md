@@ -37,19 +37,19 @@
   * https://github.com/SemiAnalysisAI/InferenceX
 ***
 
-| Lecture | Notes |
-|---|---|
-| W1 - Engine Initialization | [Lecture-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) |
-| W2 - Tokenization |[Lecture-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md)|
-| W3 - Scheduling & Paged Attention |[Lecture-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md)|
-| W4 - Prefill (Parallel Forward Pass) |[Lecture-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md)|
-| W5 - Decode (Autoregressive) |[Lecture-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md)|
-| W6 - Sampling (temp, top_k, top_p) |[Lecture-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md)|
-| W7 - Continuous Batching |[Lecture-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)|
-| W8 - Chunked Prefill |[Lecture-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md)|
-| W9 - Speculative Decoding |[Lecture-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md)|
-| W10 - Tensor Parallelism |[Lecture-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md)|
-| W11 - Disaggregated P/D |[Lecture-11](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-11.md)|
-| W12 - Benchmarking & Metrics |[Lecture-12](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-12.md)|
-| W13 |[Lecture-13](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-13.md)|
-| W14 |[Lecture-14](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md)|
+| Lecture | Notes | Date|
+|---|---|---|
+| W1 - Engine Initialization | [Lecture-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) ||
+| W2 - Tokenization |[Lecture-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md)||
+| W3 - Scheduling & Paged Attention |[Lecture-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md)||
+| W4 - Prefill (Parallel Forward Pass) |[Lecture-4](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-4.md)||
+| W5 - Decode (Autoregressive) |[Lecture-5](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-5.md)||
+| W6 - Sampling (temp, top_k, top_p) |[Lecture-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md)||
+| W7 - Continuous Batching |[Lecture-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
+| W8 - Chunked Prefill |[Lecture-8](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-8.md)||
+| W9 - Speculative Decoding |[Lecture-9](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-9.md)||
+| W10 - Tensor Parallelism |[Lecture-10](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-10.md)||
+| W11 - Disaggregated P/D |[Lecture-11](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-11.md)||
+| W12 - Benchmarking & Metrics |[Lecture-12](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-12.md)||
+| W13 |[Lecture-13](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-13.md)||
+| W14 |[Lecture-14](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-14.md)||
