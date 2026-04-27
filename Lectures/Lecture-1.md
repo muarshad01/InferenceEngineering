@@ -118,3 +118,5 @@
 * 50:00
 
 * [GPU-Powered AI Inference | Scale AI Inference | Try Modal Free](https://modal.com/?utm_source=google&utm_medium=search&utm_campaign=ai_models_nonbrand&utm_term=ai%20inference%20infra&gad_source=1&gad_campaignid=22941570665&gbraid=0AAAAA9n1HKiQdbvwZC-U1jox7gml1d4Td&gclid=Cj0KCQjwkrzPBhCqARIsAJN460mX1mS9Y8rkKlcgu5z53Qc58HThSvVSvpywxJ3AejTyTkEJUSRuUjYaAgniEALw_wcB)
+
+* [Jetson Orin Nano Super Developer Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)
