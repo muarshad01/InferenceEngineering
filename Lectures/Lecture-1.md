@@ -205,7 +205,7 @@ $$
 
 ```
 FLOPS = 2 x N x d x d = 2Nd^2 (two FLOPs per multiply-add)
-Total Bytes = 2ND + d^2 + 2ND = 4ND + d^2
+Total Bytes = 2Nd + 2d^2 + 2Nd = 4Nd + 2d^2
 ```
 
 $$
