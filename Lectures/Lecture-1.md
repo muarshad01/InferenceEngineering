@@ -1,6 +1,12 @@
 #### Lecture-1: Introduction to Inference Engineering
 
 
+#### Inference Engineer
+1. __Application Engg__: Pre-Trating
+2. __Inference Engg__: RunTime, Infrastructure, Tooling
+3. __GPU Engg__: Kernel coding
+
+
 ***
 
 * 5:00
@@ -145,7 +151,7 @@
 
 * [Meet Instant AI - cerebras.ai](https://chat.cerebras.ai/)
 
-* [Taalas | The model is The Computer](https://taalas.com/)
+* [Taalas | The model is The Computer](https://taalas.com/) - 15,000 tps
 
 
 ***
