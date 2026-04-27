@@ -193,7 +193,9 @@
 
 * 1:55:00
 
-#### 4Arithmethic Intensity = \frac{# FLOPS}{Bytes transferred}$
+#### Arithmethic Intensity
+
+* $Arithmethic Intensity = \frac{# FLOPS}{Bytes transferred}$
 
 $$
 \begin{align}
