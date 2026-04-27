@@ -48,3 +48,7 @@
 * QLoRA (Quantized LoRA)
 
 ***
+
+* [LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/)
+
+*** 
