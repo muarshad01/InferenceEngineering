@@ -22,13 +22,21 @@
 * 20:00
 
 #### Qwen Optimizations
-* Attention
+* Attention (Flash Attention)
   * MHA
   * MQA
   * MLA
 * Quantization
-* Inference: Speculative Decoding
+* Inference: Speculative Decoding (Multiple tokens are generate together, so that, inference becomes faster.)
 * Parallelism
 * Disaggregated Serving
 * State Space Models (SSA)
 * Mixture of SSM like Mamba architecture with sliding-window
+
+***
+
+#### Tooling
+* vLLM
+* SGLang
+
+*** 
