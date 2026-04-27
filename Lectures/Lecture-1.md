@@ -71,10 +71,10 @@
 ***
 
 #### Tooling
-* vLLM
-* SGLang
-* TensorRT-LLM
-* Ray Serve
+* __vLLM__: High-througput serving engine, PagedAttention, Continuous batching, Prefix caching.
+* __SGLang__: Structured generation, RadixAttention, KV-cache sharing.
+* __TensorRT-LLM__: NVIDIA's compiled kernels, FP8, multi-GPU parallelism.
+* __Ray Serve__: Distributed orchestration, autoscaling, multi-model routing.
 
 *** 
 
