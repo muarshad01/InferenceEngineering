@@ -10,3 +10,5 @@
 ***
 
 * 15:00
+
+* [Qwen - Huggging Face](https://huggingface.co/Qwen)
