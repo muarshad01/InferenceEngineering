@@ -130,3 +130,11 @@
 *** 
 
 * [Introducing Claude Opus 4.7](https://www.google.com/search?q=opus+4.7&rlz=1C5GCCM_en&oq=opus+4.7&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIGCAEQABgDMhAIAhAAGIMBGLEDGIAEGIoFMg0IAxAAGIMBGLEDGIAEMhAIBBAAGIMBGLEDGIAEGIoFMgYIBRAAGAMyBwgGEAAYgAQyBggHEEUYQNIBCDI2OTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
+
+***
+
+* 1:05:00
+
+#### Edge Inference
+* Raspberry Pi LLM Inference
+* Mobile Phone Inference
