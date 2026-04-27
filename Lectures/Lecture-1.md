@@ -124,3 +124,7 @@
 ***
 
 * 1:00:00
+
+* [GPT-5.5 API Pricing. Twice as expensive as GPT-5.4](https://www.reddit.com/r/OpenAI/comments/1sts36l/gpt55_api_pricing_twice_as_expensive_as_gpt54/)
+
+*** 
