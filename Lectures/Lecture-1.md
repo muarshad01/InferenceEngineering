@@ -55,6 +55,6 @@
 
 *** 
 
-* 30:00
+* 35:00
 
 * Semantic Layer to route the queries
