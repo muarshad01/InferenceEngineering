@@ -195,7 +195,7 @@
 
 #### Arithmethic Intensity
 
-* $$Arithmethic Intensity = \frac{num FLOPS}{Bytes transferred}$$
+* $$Arithmethic Intensity = \frac{num ~FLOPS}{Bytes ~transferred}$$
 
 $$
 \begin{align}
