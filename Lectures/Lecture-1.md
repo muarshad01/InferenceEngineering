@@ -12,6 +12,12 @@
 
 ***
 
+#### Pre-training versus Inference
+* Pre-training: Memory bound
+* Pre-training: Compute bound
+
+***
+
 #### Inference Engineer
 1. Application
 2. Pre-Trating
@@ -170,4 +176,4 @@
 
 ***
 
-* 1:25:00
+* 1:35:00
