@@ -31,11 +31,15 @@
 * Linear State Space
 * Mamba
 
+***
+
 #### Memory-traffic Rearrangemtn
 * FlashAttention
 * PagedAttention
 * Prefix Caching
 * Chuned Refill
+
+***
 
 #### Quantization
 * FP16
@@ -46,6 +50,12 @@
 * GGUF
 * QAT
 * BitNet
+
+***
+
+#### Scheduling Tricks
+* Continuous batching
+* Speculative decoding (N-gram, EAGLE, Medusa)
 
 ***
 
