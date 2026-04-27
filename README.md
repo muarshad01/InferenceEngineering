@@ -1,3 +1,6 @@
+## Inference Engineering: Phase 1 - Foundations & Optimization
+
+
 #### [Master LLM Inference Engineering | Vizuara](https://www.youtube.com/watch?v=eRRvwaHKp1g)
 * Inference ([llm-d](https://llm-d.ai/)) - open, efficient, performant AI inference at sacle.
 * During Inference you only need Parameters (P). You don't need Gradients or Optimizers States.
@@ -39,6 +42,7 @@
 
 | Lecture | Notes | Date|
 |---|---|---|
+| __Inference Engineering: Phase 1 - Foundations & Optimization__ | | |
 | W1 - Engine Initialization | [Lecture-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) ||
 | W2 - Tokenization |[Lecture-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md)||
 | W3 - Scheduling & Paged Attention |[Lecture-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md)||
