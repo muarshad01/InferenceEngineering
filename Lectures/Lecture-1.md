@@ -177,7 +177,18 @@
 ***
 
 * Ablation study
+* 500 different experiments
+* [karpathy autoresearch](https://github.com/karpathy/autoresearch)
+* Heatmap of configurations (choose best configuration)
 
 *** 
 
-* 1:40:00
+* 1:45:00
+
+#### GPU RoofLine
+1. Bandwidth
+2. FLOPS
+
+***
+
+* 1:55:00
