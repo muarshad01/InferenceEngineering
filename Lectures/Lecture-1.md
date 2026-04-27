@@ -27,7 +27,7 @@
   * MQA
   * MLA
 * Quantization
-* Inference: Speculative Decoding (Multiple tokens are generate together, so that, inference becomes faster.)
+* Inference: Speculative Decoding (Multiple tokens are generated at the same time together, so that, inference becomes faster.)
 * Parallelism
 * Disaggregated Serving
 * State Space Models (SSA)
