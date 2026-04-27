@@ -203,4 +203,9 @@ $$
 \end{align}
 $$
 
-Multiplying one-row of dimention ($d$) with one column ofdimention ($d$) has $d$ multi-plication operations. We have to do $d-1$ additions to get one output value. Total (addition+multiplication) operations is then $2d-1$. For output matrix with $Nd$ entries, we thus have a total of $2Nd^2$ opeartions. 
+```
+FLOPS = 2 x N x d x d = 2Nd^2 (two FLOPs per multiply-add)
+Total Bytes = 2ND + d^2 + 2ND = 4ND + d^2
+```
+
+* $$\text{Arithmethic ~Intensity} = \frac{2Nd^2}{4ND+d^2}$$
