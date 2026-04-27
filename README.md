@@ -1,4 +1,4 @@
-## Inference Engineering: Phase 1 - Foundations & Optimization
+## Inference Engineering
 
 
 #### [Master LLM Inference Engineering | Vizuara](https://www.youtube.com/watch?v=eRRvwaHKp1g)
