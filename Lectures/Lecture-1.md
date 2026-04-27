@@ -109,7 +109,7 @@
 | GLM-5| China|
 |---|---|
 | Llama 4 | Meta|
-| Gemma 3 | Google |
+| Gemma 4 | Google |
 | Phi 4| Microsoft |
 | Minstral Large | France|
 
@@ -139,3 +139,16 @@
 * Raspberry Pi LLM Inference
 * Mobile Phone LLM Inference
 * [SmolChat - On-Device Inference of SLMs in Android](https://github.com/shubham0204/SmolChat-Android)
+* Gemma 4 model Laptop Inference
+
+***
+
+* [Meet Instant AI - cerebras.ai](https://chat.cerebras.ai/)
+
+* [Taalas | The model is The Computer](https://taalas.com/)
+
+
+***
+
+
+
