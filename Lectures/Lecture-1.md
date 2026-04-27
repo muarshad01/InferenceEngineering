@@ -208,7 +208,9 @@ FLOPS = 2 x N x d x d = 2Nd^2 (two FLOPs per multiply-add)
 Total Bytes = 2ND + d^2 + 2ND = 4ND + d^2
 ```
 
+$$
 \begin{align}
 \text{Arithmethic ~Intensity} &= \frac{2Nd^2}{4Nd+2d^2} \\
                               &= \frac{Nd}{2N+d} \\
 \end{align}
+$$
