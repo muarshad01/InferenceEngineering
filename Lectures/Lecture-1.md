@@ -42,7 +42,7 @@
 |---|---|
 | Parameters   | Needed     |
 | Gradients    | Not Needed (X) |
-| Optimzations | Not Needed (X) |
+| - [x] Optimzations | Not Needed (X) |
 | Activations  | Needed     |
 | KV-cache     | Needed     |
 
