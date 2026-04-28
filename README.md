@@ -43,18 +43,6 @@
 
 ***
 
-#### Inference Course
-1. Ray Orchestration
-2. vLLM, SGLang: Inference
-* Paged Attention
-* Radix Attention
-* Speculative Decoding
-* Prefill-decode (PD) disaggregation: (pre-filling, decoding)
-* KV-cache optimization/compression
-3. Megatron, DeepSpeed: Parallelization (training, fine-tuning)
-
-*** 
-
 * [MLSys](https://mlsys.org/)
 
 ***
