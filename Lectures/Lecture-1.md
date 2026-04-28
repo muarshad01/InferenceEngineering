@@ -41,12 +41,11 @@
 | Memory Type | Status |
 |---|---|
 | Parameters   | :heavy_check_mark:     |
-| Gradients    | Not Needed (X) |
-| Optimzations | Not Needed (X) |
+| Gradients    | X |
+| Optimzations | X |
 | Activations  | :heavy_check_mark:     |
 | KV-cache     | :heavy_check_mark:     |
 
--[x] hello
 ***
 
 * 20:00
