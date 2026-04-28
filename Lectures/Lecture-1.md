@@ -276,5 +276,5 @@ max-seq-length (context length)     |
 | Gradients    | Not Needed |
 | Optimzations | Not Needed |
 | Activations  | Needed     |
-
+| KV-cache     | Needed     |
 ***
