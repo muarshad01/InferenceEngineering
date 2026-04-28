@@ -112,8 +112,6 @@
 
 * Semantic Layer to route the queries
 
-* [Grok 4](https://x.ai/news/grok-4)
-
 ***
 
 * 40:00
@@ -418,6 +416,7 @@ $$x_{atten} (3 \times 4) = Z \times W_0 = (s \times h) \times (h \times h)= (3 \
 
 #### Model
 * [Qwen - Huggging Face](https://huggingface.co/Qwen)
+* [Grok 4](https://x.ai/news/grok-4)
 
 #### [LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/)
 * Gemma 3 (27B) - 5:1 (local:global) sliding window and GQA
