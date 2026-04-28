@@ -38,6 +38,14 @@
 * Inter-token latency (ITL)
 * Tokens per second (TPS or t/s)
 
+| Memory Type | Status |
+|---|---|
+| Parameters   | Needed     |
+| Gradients    | Not Needed (X) |
+| Optimzations | Not Needed (X) |
+| Activations  | Needed     |
+| KV-cache     | Needed     |
+
 ***
 
 * 20:00
@@ -185,44 +193,6 @@ $$
 * 2:30:00
 
 #### [A Bird’s-Eye View of LLM Architecture](https://vizuara.substack.com/p/a-birds-eye-view-of-llm-architecture)
-
-* Prompt: Inference journey is "a"
-
-1. Tokenization
-2. Embeddings:
-* Token embedding matrix (vocab_size, dim_of_model (8))
-3. Input Matrix
-  ```
-      Inference  | . . . . . . . . |
- X =  Journey    | . . . . . . . . |
-      is         | . . . . . . . . |
-      a          | . . . . . . . . |
-  ```
-
-X is input embedding matrix of dimention is (4,8).
-
-4. Positional embedding matrix:
-```                     
-1                                   |
-2                                   |            
-.                                   |
-.                                   |
-.                                   |
-.                                   |
-max-seq-length (context length)     |
-```
-
-***
-
-* 3:00:00
-
-| Memory Type | Needed/Not Needed|
-|---|---|
-| Parameters   | Needed     |
-| Gradients    | Not Needed |
-| Optimzations | Not Needed |
-| Activations  | Needed     |
-| KV-cache     | Needed     |
 
 ***
 
