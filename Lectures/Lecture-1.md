@@ -40,11 +40,11 @@
 
 | Memory Type | Status |
 |---|---|
-| Parameters   | Needed     |
+| Parameters   | :heavy_check_mark:     |
 | Gradients    | Not Needed (X) |
-| -[x] Optimzations | Not Needed (X) |
-| Activations  | Needed     |
-| KV-cache     | Needed     |
+| Optimzations | Not Needed (X) |
+| Activations  | :heavy_check_mark:     |
+| KV-cache     | :heavy_check_mark:     |
 
 -[x] hello
 ***
