@@ -46,6 +46,7 @@
 | Activations  | Needed     |
 | KV-cache     | Needed     |
 
+-[x] hello
 ***
 
 * 20:00
