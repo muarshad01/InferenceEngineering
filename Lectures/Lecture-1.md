@@ -5,8 +5,8 @@
 #### What an Inference Engineer Actually Does?
 1. Download an open-source model
 2. Measure the product's SLO - TTFT, ITL, throughput, cost per token
-4. Choose runTime optimizations - attention varient, quantization, KV-Cache tricks
-5. Choose Infrastructure layout - parallelism, replication, disaggregation
+4. Choose runTime optimizations - Attention varient, Quantization, KV-Cache tricks
+5. Choose Infrastructure layout - Parallelism, Replication, Disaggregation
 6. Deploy via a serving engine - vLLM, SGLang, TensorRT-LLM, Ray Serve
 7. Benchmark, iterate, re-tune - a new frontier model drops every 6 weeks
 
