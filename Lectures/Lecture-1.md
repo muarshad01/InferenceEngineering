@@ -221,5 +221,12 @@ $$
 
 * 2:10:00
 
-
 ***
+
+#### Inference
+* Prefill: Comptue bound
+* Decode: Memory bound
+
+*** 
+
+* 2:15:00
