@@ -207,13 +207,3 @@ $$
 * [5D-Parallelism Lecture-2](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-01.md)
  
 ***
-
-#### Companies
-* Build Innovative GPU Chips ([Wafer: AI that makes AI fast](https://www.ycombinator.com/companies/wafer))
-* [Meet Instant AI - cerebras.ai](https://chat.cerebras.ai/)
-* [Taalas | The model is The Computer](https://taalas.com/)
-  * 15,000 tps
-  * Model burned into silocon
-
-***
-***
