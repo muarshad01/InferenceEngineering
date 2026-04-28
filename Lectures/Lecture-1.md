@@ -229,8 +229,13 @@ $$
 
 *** 
 
-* 2:15:00
+* 2:20:00
 
-#### Prefill / Decode from Scratch
+#### Journey of Prompty through Inference Pipeline
+* Prefill / Decode from Scratch
 
 * [A Bird’s-Eye View of LLM Architecture](https://vizuara.substack.com/p/a-birds-eye-view-of-llm-architecture)
+
+***
+
+* 2:25:00
