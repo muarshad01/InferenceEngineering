@@ -114,19 +114,11 @@
 
 ***
 
-* 50:00
-
-***
-
 * 1:00:00
 
 * [GPT-5.5 API Pricing. Twice as expensive as GPT-5.4](https://www.reddit.com/r/OpenAI/comments/1sts36l/gpt55_api_pricing_twice_as_expensive_as_gpt54/)
 
 *** 
-
-* [Introducing Claude Opus 4.7](https://www.google.com/search?q=opus+4.7&rlz=1C5GCCM_en&oq=opus+4.7&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIGCAEQABgDMhAIAhAAGIMBGLEDGIAEGIoFMg0IAxAAGIMBGLEDGIAEMhAIBBAAGIMBGLEDGIAEGIoFMgYIBRAAGAMyBwgGEAAYgAQyBggHEEUYQNIBCDI2OTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
-
-***
 
 * 1:05:00
 
@@ -407,7 +399,9 @@ $$x_{atten} (3 \times 4) = Z \times W_0 = (s \times h) \times (h \times h)= (3 \
 | Gemma 4 | Google |
 | Phi 4| Microsoft |
 | Minstral Large | France|
+* [Introducing Claude Opus 4.7](https://www.google.com/search?q=opus+4.7&rlz=1C5GCCM_en&oq=opus+4.7&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIGCAEQABgDMhAIAhAAGIMBGLEDGIAEGIoFMg0IAxAAGIMBGLEDGIAEMhAIBBAAGIMBGLEDGIAEGIoFMgYIBRAAGAMyBwgGEAAYgAQyBggHEEUYQNIBCDI2OTRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
 
+***
 ***
 
 
