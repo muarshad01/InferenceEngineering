@@ -23,7 +23,6 @@
 4. __GPU Engg__: Kernel coding
 5. Build Innovative GPU Chips ([Wafer: AI that makes AI fast](https://www.ycombinator.com/companies/wafer))
 
-
 ***
 
 * 5:00
@@ -421,5 +420,5 @@ $$x_{atten} (3 \times 4) = Z \times W_0 = (s \times h) \times (h \times h)= (3 \
 
 *** 
 
-
-
+#### Companies
+* Build Innovative GPU Chips ([Wafer: AI that makes AI fast](https://www.ycombinator.com/companies/wafer))
