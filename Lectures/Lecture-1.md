@@ -12,7 +12,7 @@
 
 #### Pre-training versus Inference
 * Pre-training: Compute bound (offline)
-* Pre-training: Memory bound (online)
+* Inference: Memory bound (online)
 
 ***
 
