@@ -306,7 +306,7 @@ max-seq-length (context length)     |
 * We'll discuss __Parameters, Gradients, Activation, Optimizer States__
 
 <p align="center">
-  <img src="https://github.com/muarshad01/NVIDIA-GPU/blob/main/images/Lecture-1/LLM-architecture.png" width="200" height="400"/>
+  <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-1/LLM-architecture.png" width="200" height="400"/>
 </p>
 
 
