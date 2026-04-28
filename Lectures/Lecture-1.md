@@ -219,9 +219,3 @@ $$
   * Model burned into silocon
 
 ***
-
-#### [LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/)
-* Gemma 3 (27B) - 5:1 (local:global) sliding window and GQA
-
-***
-
