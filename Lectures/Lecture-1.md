@@ -270,5 +270,11 @@ max-seq-length (context length)     |
 
 * 3:00:00
 
+| Memory Type | Needed/Not Needed|
+|---|---|
+| Parameters   | Needed     |
+| Gradients    | Not Needed |
+| Optimzations | Not Needed |
+| Activations  | Needed     |
 
-
+***
