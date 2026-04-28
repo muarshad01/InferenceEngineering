@@ -196,145 +196,20 @@ $$
 
 ***
 
-* 3:05:00
-
-* [TurboQuant: Redefining AI efficiency with extreme compression](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/)
-
-***
-
-#### Speculative Decoding
-* LLM
-* SLM - produces more tokens, which are verified by LLM
-
-
 * 3:20:00
 
-***
-
-
 ## 3. LLM Architecture from Scratch
-* Vizz
-  * Forward Pass (We store Parameters and Activations (Input to Layers))
-  * Backward Pass (We store the Gradients; Optimizer States (Momentum ($$\hat{m}$$), Variance($$\hat{v}$$)))
-* We'll discuss __Parameters, Gradients, Activation, Optimizer States__
 
 <p align="center">
   <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-1/LLM-architecture.png" width="200" height="400"/>
 </p>
 
 
+* 5D-Parallelism Lecture-2
+ 
 ***
 
-* 1:20:00
 
-* IE ($$x_0$$) = Token Embedding (TE) + Positional Embedding (PE)
-* IE ($$x_0$$) -> __Transformer Block__
-
-***
-
-#### [A Bird’s-Eye View of LLM Architecture](https://vizuara.substack.com/p/a-birds-eye-view-of-llm-architecture)
-* __Note__: Within Transfomer block, the first component is __LN1)__.
-
-***
-
-* Input to __LN1__ is $$x_0$$ Matrix (i.e., IE vectors):
-
-$$
-x_0=
-\begin{bmatrix}
-  1 & 0.5 & 1 & 0\\
-  2 & 0.1 & 1 & 1\\
-  1 & 0 & 0 & 2
-\end{bmatrix}
-$$
-
-* The dimension $$x_0$$ matrix is $$(s \times h)=(3 \times 4)$$.
-
-* __Input__: $$(b, s, h) = (1, 3, 4)$$
-  * Batch size = b = 1
-  * Number of token = s = 3
-  * Embedding dimension = d = h = 4
-
-* __LN1__: For each IE vector in $$x_0$$, we perform the following operation, i.e., subtract the mean($$\mu$$) and divide by sqrt-of-variance $$(\sqrt{\sigma})$$
-
-$$\hat{x} = \bigg(\frac{x-\mu}{\sqrt{\sigma}}\bigg)\times\alpha + \beta$$
-
-* The output $$x_1$$ is a matrix of dimention $$(s \times h)=(3 \times 4)$$.
-* __Note__: $$\alpha$$ (Scale) and $$\beta$$ (Shift) are trainable parameters.
-
-* __Question__: Why we need LN?
-  * LN solves the __problem of internal co-variate shift.__
-  * Everytime a new input sample comes into a NN, if the distribution of those input samples is different then the training becomes very hard.
-  * We want the mean ($$\mu=0$$) and standard-deviation ($$\sigma=1$$) to be same.
-
-***
-
-#### $$(W_q, W_k, W_v)$$ 
-* $$(W_q, W_k, W_v)$$ are trainable matrices of dimension $$(h \times h)=(4 \times 4)$$.
-* $x_1$ matrix is multiplied with each of $$(W_q, W_k, W_v)$$ matrices to generate $$(Q, K, V)$$ (i.e., set of vectors) of dimension $$(s \times h)=(3 \times 4)$$.
-  * $$Q = x_1 \times W_q$$
-  * $$K = x_1 \times W_k$$
-  * $$V = x_1 \times W_v$$
-
-***
-
-#### Attention Score
-* $$Q \times K^{T} = (s \times s)$$ matrix
-
-* __Question__: Why do we divide by $$\sqrt{d_{keys}}$$?
-  * When we multiply Queries (Q) with Keys (K) transpose, i.e. $$Q \times K^{T}$$, the variance of that matrix multiplication can grow a lot. This is not good when we take gradients ($$\frac{\partial L}{\partial W}$$).
-  * Generally, when we take gradients,  during the back-propagation, we want the variance of $$Q \times K^{T}$$ to be consistent.
-  * Therefore, we divie by $$\sqrt{d_{keys}}$$, so that variance $$Q \times K^{T}$$ stays as much close to 1 as possible, so that, the back-propagation will happen in a seamless manner.
-
-***
-
-#### Attention Weights
-
-$$\text{softmax}\bigg(\frac{Q \times K^{T}}{\sqrt{d_{keys}}}\bigg)$$
-* which is $$(s \times s)$$ matrix.
-
-***
-
-#### Softmax
-* __Question__: Why we need softmax?
-* Softmax ensures two things:
-1. All values $x_i$ are between $$0 \rightarrow 1$$.
- 2. All values sum up to 1, i.e., $$\text{Sum} = \sum \hat{X} \rightarrow 1$$
-
-$$
-\begin{align}
-   X          &= \\{x_1, x_2, x_3, x_4, x_5, x_6\\}\\
-   \text{Sum} &= \sum_{i=1}^{n=6}e^{x_i}\\
-   \hat{X}    &=\bigg\\{\frac{e^{x_1}}{\text{Sum}},\frac{e^{x_2}}{\text{Sum}},\frac{e^{x_3}}{\text{Sum}},\frac{e^{x_4}}{\text{Sum}},\frac{e^{x_5}}{\text{Sum}},\frac{e^{x_6}}{\text{Sum}}\bigg\\}
-\end{align}
-$$
-
-***
-
-#### Context Matrix
-
-$$Z = \text{softmax}\bigg(\frac{Q \times K^{T}}{\sqrt{d_{keys}}}\bigg)\times V$$
-
-* $$Z$$ is a $$(s \times h)$$ dimension matrix.
-
-$$x_{atten} (3 \times 4) = Z \times W_0 = (s \times h) \times (h \times h)= (3 \times 4) \times (4 \times 4)$$
-
-* $$x_{atten}$$ is the output of Transformer block and has dimension $$(s \times h)=(3 \times 4)$$.
-* __Note__: $$W_0$$ is the output projection matrix. It brings us back to our orginal dimension and has dimension $$(h \times h)=(4 \times 4)$$
-
-***
-
-#### Masking
-* In in auto-regressive task, which is next-token prediction task, we can't peek into the future. We can only look into the past. Therefore, we apply the __causal mask__.
-
-#### Dropout
-
-#### Shortcupt Connection
-* $$x_{res1} = x_{attn} + x_0$$.
-  * It gives an alternative-path for the gradients to flow.
-  * It prevents the __Vanishing Gradient Problem.__
-
-*** 
 
 #### Companies
 * Build Innovative GPU Chips ([Wafer: AI that makes AI fast](https://www.ycombinator.com/companies/wafer))
@@ -373,3 +248,4 @@ $$x_{atten} (3 \times 4) = Z \times W_0 = (s \times h) \times (h \times h)= (3 \
 
 * [Jetson Orin Nano Super Developer Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)
 
+* [TurboQuant: Redefining AI efficiency with extreme compression](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/)
