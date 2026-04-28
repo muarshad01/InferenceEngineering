@@ -88,7 +88,7 @@
 
 ***
 
-* Disaggregated Serving: Decouple Prefill(P) / Decode(D)
+* __Disaggregated Serving (or Prefill/Decode Disaggregation)__ decouples the compute-bound prefill phase (prompt processing) from the memory-bound decode phase (token generation) onto separate, independently scaled hardware pools.
 
 ***
 
