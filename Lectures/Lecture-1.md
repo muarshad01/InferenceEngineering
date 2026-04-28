@@ -230,3 +230,7 @@ $$
 *** 
 
 * 2:15:00
+
+#### Prefill / Decode from Scratch
+
+* [A Bird’s-Eye View of LLM Architecture](https://vizuara.substack.com/p/a-birds-eye-view-of-llm-architecture)
