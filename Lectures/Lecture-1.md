@@ -130,14 +130,6 @@
 
 ***
 
-* [Meet Instant AI - cerebras.ai](https://chat.cerebras.ai/)
-
-* [Taalas | The model is The Computer](https://taalas.com/)
-  * 15,000 tps
-  * Model burned into silocon
-
-***
-
 * Ablation study
 * 500 different experiments
 * [karpathy autoresearch](https://github.com/karpathy/autoresearch)
@@ -384,6 +376,10 @@ $$x_{atten} (3 \times 4) = Z \times W_0 = (s \times h) \times (h \times h)= (3 \
 
 #### Companies
 * Build Innovative GPU Chips ([Wafer: AI that makes AI fast](https://www.ycombinator.com/companies/wafer))
+* [Meet Instant AI - cerebras.ai](https://chat.cerebras.ai/)
+* [Taalas | The model is The Computer](https://taalas.com/)
+  * 15,000 tps
+  * Model burned into silocon
 
 #### Model
 * [Qwen - Huggging Face](https://huggingface.co/Qwen)
