@@ -43,7 +43,7 @@
 | Lecture | Notes | Date|
 |---|---|---|
 | __Inference Engineering: Phase 1 - Foundations & Optimization__ | | |
-| Introduction to Inference Engineering | [Lecture-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) ||
+| Introduction to Inference Engineering | [Lecture-1](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-1.md) | Apr 28, 2026 |
 ||||
 | W2 - Tokenization |[Lecture-2](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-2.md)||
 | W3 - Scheduling & Paged Attention |[Lecture-3](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-3.md)||
