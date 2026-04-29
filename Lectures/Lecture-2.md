@@ -39,7 +39,7 @@
 |---|---|---|
 | $A(4,4)=Q \times K^T$ | $A_1(4,4)=Q_1 \times K_1^T$ <br> $A_2(4,4)=Q_2 \times K_2^T$ | - Attention score matrix <br> - Size of the attention socre matrices remains exactly the same. <br> - Number of attention socre matrices is same as number of attention heads.|
 | $B(4,4)=\text{softmax}\bigg(\text{casual}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)\bigg)$ | $B_1(4,4)$ <br> $B_2(4,4)$ | Attention weight matrix |
-| $Z(4,4)=\text{softmax}\bigg(\text{casual}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)\bigg) \times V$ | $Z_1(4,2)=\text{Perspective_1}$ <br> $Z_2(4,2)=\text{Perspective_2}$ | Context matrix |
+| $Z(4,4)=\text{softmax}\bigg(\text{casual}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)\bigg) \times V$ | $Z_1(4,2)=\text{Perspective-1}$ <br> $Z_2(4,2)=\text{Perspective-2}$ | Context matrix |
 || $Z(4,4) = [Z_1(4,2) \parallel Z_2(4,2)]$ |Concat|
 
 
