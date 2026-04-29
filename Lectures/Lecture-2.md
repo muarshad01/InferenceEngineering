@@ -39,7 +39,7 @@
 |---|---|
 | $\text{Attention Score}=A(4,4)=Q \times K^T$ ||
 | $\text{Attention Weight}=B(4,4)=\text{softmax}(\text{casual}(\frac{A}{\sqrt{d_{keys}}}))$ ||
-| $\text{Context matrix}=Z(4,4)=B \times W_V$ ||
+| $\text{Context matrix}=Z(4,4)=B \times V = \text{softmax}(\text{casual}(\frac{A}{\sqrt{d_{keys}}})) \times V$ ||
 
 
 #### MHA
