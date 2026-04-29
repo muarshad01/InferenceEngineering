@@ -13,7 +13,13 @@
 
 * 5:00:00
 
+#### GPU Chip Level 
 * [Cerebras Inference](https://chat.cerebras.ai/)
 * [Taalas - Burn the LLM on Chip](https://taalas.com/)
 
+#### Y Combinator
+* [Y Combinator - Requests for Startups](https://www.ycombinator.com/rfs)
+
 ***
+
+* 20:00
