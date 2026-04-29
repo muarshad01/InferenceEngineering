@@ -37,7 +37,7 @@
 | $K(4,4)=X \times W_K$ | $K_1(4,2)=X \times W_{K_1}$ <br> $K_2(4,2)=X \times W_{K_2}$|
 | $V(4,4)=X \times W_V$ | $V_1(4,2)=X \times W_{V_1}$ <br> $V_2(4,2)=X \times W_{V_1}$|
 |---|---|
-| $\text{Attention Score}=A(4,4)=Q \times K^T$ ||
+| $\text{Attention Score}=A(4,4)=Q \times K^T$ |A_1(4,4)=Q_1 \times K_^T$ <br> A_2(4,4)=Q_2 \times K_2^T$|
 | $\text{Attention Weight}=B(4,4)=\text{softmax}\bigg(\text{casual}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)\bigg)$ ||
 | $\text{Context matrix}=Z(4,4)=\text{softmax}\bigg(\text{casual}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)\bigg) \times V$ ||
 
