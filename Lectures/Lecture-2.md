@@ -47,3 +47,14 @@
 * Number of attention socre matrices is same as number of attention heads.
 
 * 
+
+#### Perspective
+
+```
+The artist painted the portrait of a woman with a brush.
+```
+
+* Artist painted (a oman who has a brush in her hand)
+* Artist has brush in his hand (he painted the portrait of a woman )
+
+*** 
