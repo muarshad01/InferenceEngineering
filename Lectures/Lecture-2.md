@@ -27,15 +27,15 @@
 
 |||
 |---|---|
-| X(4,8)||
+| $X(4,8)$ | $X(4,8)$ |
 |---|---|
-| $W_Q (8,4)$||
-| $W_K (8,4)$||
-| $W_V (8,4)$||
+| $W_Q (8,4)$ | $W_Q_1 (8,4)$ |
+| $W_K (8,4)$ | $W_K (8,4)$ |
+| $W_V (8,4)$ | $W_V (8,4)$ |
 |---|---|
-| $Q(4,4)=X \times W_Q$||
-| $K(4,4)=X \times W_K$||
-| $V(4,4)=X \times W_V$||
+| $Q(4,4)=X \times W_Q$ | $Q(4,4)=X \times W_Q$ |
+| $K(4,4)=X \times W_K$ | $K(4,4)=X \times W_K$ |
+| $V(4,4)=X \times W_V$ | $V(4,4)=X \times W_V$ |
 |---|---|
 | $\text{Attention Score}=A(4,4)=Q \times K^T$ ||
 | $\text{Attention Weight}=B(4,4)=\text{softmax}\bigg(\text{casual}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)\bigg)$ ||
