@@ -29,13 +29,13 @@
 |---|---|
 | $X(4,8)$ | $X(4,8)$ |
 |---|---|
-| $W_Q (8,4)$ | $W_{Q_1} (8,2)$;<br> $W_{Q_1} (8,2)$ |
-| $W_K (8,4)$ | $W_{K_1} (8,2)$; $W_{K_2} (8,2)$ |
-| $W_V (8,4)$ | $W_{V_1} (8,2)$; $W_{V_1} (8,2)$ |
+| $W_Q (8,4)$ | $W_{Q_1} (8,2)$ <br> $W_{Q_1} (8,2)$ |
+| $W_K (8,4)$ | $W_{K_1} (8,2)$ <br> $W_{K_2} (8,2)$ |
+| $W_V (8,4)$ | $W_{V_1} (8,2)$ <br> $W_{V_1} (8,2)$ |
 |---|---|
-| $Q(4,4)=X \times W_Q$ | $Q_1(4,2)=X \times W_{Q_1}$; $Q_2(4,2)=X \times W_{Q_2}$|
-| $K(4,4)=X \times W_K$ | $K(4,4)=X \times W_K$ |
-| $V(4,4)=X \times W_V$ | $V(4,4)=X \times W_V$ |
+| $Q(4,4)=X \times W_Q$ | $Q_1(4,2)=X \times W_{Q_1}$ <br> $Q_2(4,2)=X \times W_{Q_2}$|
+| $K(4,4)=X \times W_K$ | $K_1(4,2)=X \times W_{K_1}$ <br> $K_2(4,2)=X \times W_{K_2}$|
+| $V(4,4)=X \times W_V$ | $V_1(4,2)=X \times W_{V_1}$ <br> $V_2(4,2)=X \times W_{V_1}$|
 |---|---|
 | $\text{Attention Score}=A(4,4)=Q \times K^T$ ||
 | $\text{Attention Weight}=B(4,4)=\text{softmax}\bigg(\text{casual}\bigg(\frac{Q \times K^T}{\sqrt{d_{keys}}}\bigg)\bigg)$ ||
