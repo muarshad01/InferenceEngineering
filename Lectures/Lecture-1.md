@@ -207,3 +207,6 @@ $$
 * [5D-Parallelism Lecture-2](https://github.com/muarshad01/5D-Parallelism/blob/main/Notes/Day-01.md)
  
 ***
+
+* 3:00:00
+   * Redo last 30 minutes again
