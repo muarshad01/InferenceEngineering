@@ -62,9 +62,6 @@ The artist painted the portrait of a woman with a brush.
 
 ***
 
-* 1:20:00
+* 1:30:00
 
 * 
-
-
-
