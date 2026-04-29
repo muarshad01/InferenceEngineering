@@ -53,3 +53,5 @@ The artist painted the portrait of a woman with a brush.
 * Artist has brush in his hand (he painted the portrait of a woman )
 
 *** 
+
+* 45:00
