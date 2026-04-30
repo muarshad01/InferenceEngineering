@@ -67,4 +67,6 @@ The artist painted the portrait of a woman with a brush.
 * __Pre-training__: Params, Grads, Optims, Activs
 * __Inference__: Params, Activs, KV-cache
 
-* 1:35:00
+* 1:40:00
+
+***
