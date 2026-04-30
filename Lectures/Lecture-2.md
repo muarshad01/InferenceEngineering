@@ -70,3 +70,12 @@ The artist painted the portrait of a woman with a brush.
 * 1:40:00
 
 ***
+
+#### Benefits
+* Saves re-computation
+* During Inference KV-cache Benefits (TTFT, ITL, TPS)
+* KV-cache benefits ITL becauses we're doing less FLOPs
+* $\text{num FLOPs} \propto \text{Wall clock time}$
+* \text{num FLOPs} (\downarrow) \longrightarrow  \text{Wall clock time} (\downarrow) \longrightarrow ITL(\downarrow)
+
+*** 
