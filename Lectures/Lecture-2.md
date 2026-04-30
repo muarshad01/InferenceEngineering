@@ -132,3 +132,8 @@ Deoploy
 * 2:20:00
 
 ***
+
+
+* 2:35:00
+
+#### [TurboQuant](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/): Can we store KV-cache in low precisin. 
