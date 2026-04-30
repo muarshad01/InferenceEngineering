@@ -142,7 +142,12 @@ Deoploy
 
 ***
 
-* 3:00:00
+* Weights are quantized in blocks
+* Activations are quantized in channels (Spikyness issue only showsup in Activations)
+
+***
+
+* 3:05:00
 
 
 
