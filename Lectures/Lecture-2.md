@@ -171,8 +171,11 @@ Deoploy
 3. Implement the V4 paper changes on the Qwen model
 4. Implement TurboQuant
 5. Then compare and constast the two
-
-***
-
 6. Then compare
+
+#### Research Paper Idea
+* TurboQuant with LoRA
+* Coding is not the bottleneck; Ideas is the bottleneck!!!
+* Collaborate using Claude code.
+
 ****
