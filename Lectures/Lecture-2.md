@@ -137,3 +137,9 @@ Deoploy
 * 2:35:00
 
 #### [TurboQuant](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/): Can we store KV-cache in low precisin. 
+
+* [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339)
+
+
+***
+***
