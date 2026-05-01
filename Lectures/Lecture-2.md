@@ -78,9 +78,6 @@ The artist painted the portrait of a woman with a brush.
 
 $$\text{Bytes ~taken ~up ~by ~KV cache} = l \times b \times s \times h \times n_{heads} \times 2 \times 2$$
 
-* [TurboQuant](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/): Can we store KV-cache in low precisin. 
-* Compression across heads (MHA versus MLA)
-
 ***
 
 * 2:05:00
@@ -97,8 +94,6 @@ $$\text{Bytes ~taken ~up ~by ~KV cache} = l \times b \times s \times h \times n_
 
 * 2:10:00
 
-***
-
 #### RunPod
 ```
 GPU: H100 SXM 
@@ -107,11 +102,6 @@ Volume Disk
 Deoploy
 ```
 ***
-
-* 2:20:00
-
-***
-
 
 * 2:35:00
 
@@ -122,7 +112,10 @@ Deoploy
 | [LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale](https://arxiv.org/abs/2208.07339) ||
 | [DeepSeek V4 in vLLM: Efficient Long-context Attention](https://vllm-project.github.io/2026/04/24/deepseek-v4.html) ||
 
+
 ***
+
+#### REDO This part
 
 * Weights are quantized in blocks
 * Activations are quantized in channels (Spikyness issue only showsup in Activations)
@@ -130,8 +123,6 @@ Deoploy
 ***
 
 * 3:20:00
-
-***
 
 #### DeepSeek V4 KV-Cache
 1. near past
