@@ -27,6 +27,9 @@
 ***
 
 #### MLA
+
+* [MLA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture12_notes.md)
+
 * Shift focus from reducing the number-of-heads to compressing the informtion within these heads.
 * What if we don't have to cache K & V seperately.
 * What if, we could first project our input (X) into a single, combined, much smaller matrix, a latent matrix $C_{KV}$ and cache only that!
