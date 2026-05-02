@@ -27,11 +27,12 @@
 ***
 
 #### MLA
-* Shift focus from reducing the number of heads to compressing the informtion within these heads.
+* Shift focus from reducing the number-of-heads to compressing the informtion within these heads.
 * What if we don't have to cache K & V seperately.
-* What if, we could first project our input into a single, combined, much smaller matrix, a latent matrix and cache only that!
+* What if, we could first project our input (X) into a single, combined, much smaller matrix, a latent matrix ($C_{KV}=X\times W_{dKV}$) and cache only that!
 * This is the central idea of MLA:
 * Instead of caching two large matrices, K & V, we only cache one smaller, lower dimensional matrix $C_{KV}$.
 * This single matrix becomes our highly efficient cache.
-* When we need the full Keys and Values, we can resonstruct them on the fly from the compressed latent representation.
+* When we need the full Keys ($K$) and Values($V$), we can resonstruct them on the fly from the compressed latent representation ($C_{KV}$).
+
 ***
