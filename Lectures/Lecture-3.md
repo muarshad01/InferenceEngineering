@@ -29,7 +29,7 @@
 #### MLA
 * Shift focus from reducing the number-of-heads to compressing the informtion within these heads.
 * What if we don't have to cache K & V seperately.
-* What if, we could first project our input (X) into a single, combined, much smaller matrix, a latent matrix ($$C_{KV}(4,4) = X(4,8) \times W_{dKV}(8,4)$$) and cache only that!
+* What if, we could first project our input (X) into a single, combined, much smaller matrix, a latent matrix $C_{KV}$ and cache only that!
 * This is the central idea of MLA:
 * Instead of caching two large matrices, K & V, we only cache one smaller, lower dimensional matrix $C_{KV}$.
 * This single matrix becomes our highly efficient cache.
