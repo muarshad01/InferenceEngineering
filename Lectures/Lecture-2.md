@@ -67,6 +67,8 @@ The artist painted the portrait of a woman with a brush.
 
 #### Size of KV_Cache
 * KV-cahce size explosion!
+* High Bandwidth Memory (HBM) needs to be transferred to compute.
+* In the RoofLine graph, X-axis is (FLOPs/Bytes), as the number of Bytes increase, we move down along the slope, i.e., its MEMORY Bound.
 
 
 * l : number of transformer blocks layers
@@ -77,7 +79,7 @@ The artist painted the portrait of a woman with a brush.
 * 2 : number of byptes per PF (Assume each parameter takes 2 bytes)
 * 2 : Two caches one each for (k,v)
 
-$$\text{Bytes ~taken ~up ~by ~KV cache} = l \times b \times s \times h \times n_{heads} \times 2 \times 2$$
+$$\bigg(\text{Bytes ~taken ~up ~by ~KV cache}\bigg) = l \times b \times s \times h \times n_{heads} \times 2 \times 2$$
 
 ***
 
