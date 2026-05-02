@@ -61,7 +61,7 @@ The artist painted the portrait of a woman with a brush.
 * KV-cache benefits ITL, becauses we're doing less FLOPs
 * $\text{num FLOPs} \propto \text{Wall clock time}$
 * $\text{num FLOPs} (\downarrow) \longrightarrow  \text{Wall clock time} (\downarrow) \longrightarrow ITL(\downarrow)$
-* $seq-length (\uparrow) \longrightarrow SpeedUp(\uparrow)$
+* $\text{SeqLength} (\uparrow) \longrightarrow SpeedUp(\uparrow)$
 
 *** 
 
