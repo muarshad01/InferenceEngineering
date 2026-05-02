@@ -25,3 +25,10 @@
 * [Lecture11 - GQA](https://github.com/muarshad01/DeepSeek/blob/main/Notes/lecture11_notes.md)
 
 ***
+
+#### MLA
+* Shift focus from reducing the number of heads to compressing the informtion within these heads.
+* What if we don't have to cache K & V seperately.
+* What if, we could first project our input into a single, combined, much smaller matrix, a latent matrix and cache only that!
+
+***
