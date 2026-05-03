@@ -54,10 +54,6 @@
 
 <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-3/codex-2.png" width="300" height="300" />
 
-
+* You don't have to write a single line of code!
 
 ***
-
-
-
-
