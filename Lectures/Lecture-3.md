@@ -36,7 +36,7 @@
 * This is the central idea of MLA:
 * Instead of caching two large matrices, K & V, we only cache one smaller, lower dimensional matrix $C_{KV}$.
 * This single matrix becomes our highly efficient cache.
-* When we need the full Keys ($K$) and Values($V$), we can resonstruct them on the fly from the compressed latent representation ($C_{KV}$).
+* When we need the full Keys ($K$) and Values($V$), we can resonstruct them on-the-fly from the compressed latent representation ($C_{KV}$).
 
 ***
 
