@@ -39,3 +39,5 @@
 * When we need the full Keys ($K$) and Values($V$), we can resonstruct them on the fly from the compressed latent representation ($C_{KV}$).
 
 ***
+
+* 2:05:00
