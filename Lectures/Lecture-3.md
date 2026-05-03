@@ -48,6 +48,14 @@
 * [Latent Multi-Head Attention for Small Language Models](https://arxiv.org/pdf/2506.09342)
 
 
+
+<img src="" width="300" height="300" />
+
+
+<img src="" width="300" height="300" />
+
+
+
 ***
 
 
