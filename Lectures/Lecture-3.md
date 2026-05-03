@@ -45,5 +45,11 @@
 #### Generate Code through Codex
 * [roneneldan/TinyStories · Datasets at Hugging Face](https://huggingface.co/datasets/roneneldan/TinyStories)
 
+* [Latent Multi-Head Attention for Small Language Models](https://arxiv.org/pdf/2506.09342)
+
 
 ***
+
+
+
+
