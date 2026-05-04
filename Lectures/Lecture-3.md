@@ -66,7 +66,12 @@
 ***
 
 #### Now the new token "bright" comes in
-* $Q_{bright} = x_{bright} \times W_Q$
+* $Q_{bright}   = x_{bright} \times W_Q$
 * $cKV_{bright} = x_{bright} \times W_{dKV}$
-* $QI_{bright} = h_bright \times W_Q^T$
-* $KI_{bright} = h_bright \times W_K^T$
+* $QI_{bright} = h_{bright} \times W_Q^T$
+* $KI_{bright} = h_{bright} \times W_K^T$
+
+
+
+
+
