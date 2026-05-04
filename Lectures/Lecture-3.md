@@ -43,6 +43,7 @@
 * 2:10:00
 
 #### Coding
+* [roneneldan/TinyStories · Datasets at Hugging Face](https://huggingface.co/datasets/roneneldan/TinyStories)
 
 ***
 
@@ -50,7 +51,6 @@
 
 #### Generate Code through Codex-5.5
 * Become a good Agentic Orchestrator to produce  best quality code!
-* [roneneldan/TinyStories · Datasets at Hugging Face](https://huggingface.co/datasets/roneneldan/TinyStories)
 
 * [Latent Multi-Head Attention for Small Language Models](https://arxiv.org/pdf/2506.09342)
 
