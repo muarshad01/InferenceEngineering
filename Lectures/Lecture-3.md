@@ -62,6 +62,7 @@
 #### DeepSeek Sparse Attention
 * Tokens + Index-Key
 * MLC Cache ($C_{KV}$) + Indexing Cache()
+* Its derived from Latent Attention
 
 ***
 
