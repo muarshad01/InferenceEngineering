@@ -16,6 +16,9 @@
 | Quantization |[Day-6](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-6.md)||
 | SmolChat-Android — Live session with Shubham Panchal. Deploy a real LLM on your phone. |[Day-7](https://github.com/muarshad01/Inference-Engg/blob/main/Lectures/Lecture-7.md)||
 | __Phase 3: Systems & Serving__ | | |
+| Serving Strategies — Continuous Batching, Speculative Decoding, Disaggregated Serving	 |||
+| Parallelism and Its Effects on Inference |||
+| Finetuning & Distillation — Subliminal Learning Project |||
 | __Phase 4: Capstone & Frontiers__ | | |
 
 ***
