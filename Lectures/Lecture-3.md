@@ -61,7 +61,7 @@
 
 #### DeepSeek Sparse Attention (DSA)
 * Tokens + Index-Key
-* MLC Cache ($C_{KV}$) + Indexing Cache()
+* MLC Cache ($C_{KV}$) + Indexing Cache($W_Q^I$ and $W_K^I$)
 * Its derived from Latent Attention
 
 ***
