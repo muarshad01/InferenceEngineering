@@ -107,7 +107,7 @@
 | GQA | $l \times b \times s \times \underbrace{g \times h}_{\text{embedding dim}} \times 2 \times bytes$ | Groups of query heads share KV heads. |
 | MLA | $l \times b \times s \times d_{latent} \times bytes $ | Cache compressed latent content insted of |
 | DSA over MLA | $\text{MLA Cache} + l \times b \times s \times d_{index} \times \text{index bytes}$ | Add a lookup cache. The expensive MLA read uses only top-k selectors |
-| Sliding Window | $l \times b \times W \times cache_per_token $|
+| Sliding Window | $l \times b \times W \times \text{cache pertoken}$|
 
 ***
 
