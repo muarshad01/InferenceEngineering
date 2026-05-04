@@ -77,6 +77,7 @@
 
 ***
 
+* $KI_{bright}.KI_{s}=\text{score}(bright, s)$
 
-
+***
 
