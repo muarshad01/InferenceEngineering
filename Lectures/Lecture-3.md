@@ -84,6 +84,17 @@
 
 * 2:50:00
 
+* DeepSeek seq-length=128K
+* New query -> 128K latent vectors need to be loaded from cache
+* All the past is not important
+* I want to load top 2048 latent vectors.
+* Instead of reading all 1228 past vectors for a new query, you only read 2028.
+* How d you select those 2048?
 
+* 
+* Indexer:
+* For all past tokens, you maintain a low dimensional vector called the key indexer.
+* For a new Query, you take dot product with all 128k key indexers.
+* Read top 2,048 from HRAM.
 
 ***
