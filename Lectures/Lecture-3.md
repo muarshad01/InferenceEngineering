@@ -99,11 +99,10 @@
 
 ***
 
-| Method | Cache Formula|
-|---|---|
-| MHA |$l \times b \times s \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times 2$ |
-
-   MQA &: l \times b \times s \times \underbrace{1\times h}_{\text{embedding dim}} \times 2 \times 2\\
+| Method | Cache Formula | Meaning | 
+|---|---|---|
+| MHA |$l \times b \times s \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times 2$ | Sotre K and V for every head. |
+| MQA | $l \times b \times s \times \underbrace{1\times h}_{\text{embedding dim}} \times 2 \times 2 | |
    GQA &: l \times b \times s \times \underbrace{g \times h}_{\text{embedding dim}} \times 2 \times 2 \\
    MLA &: l \times b \times s \times d_{latent} \times 1 \times 2 \times \\
 
