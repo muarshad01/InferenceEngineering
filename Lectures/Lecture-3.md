@@ -108,6 +108,9 @@
 | DSA over MLA | $\text{MLA Cache} + l \times b \times s \times d_{index} \times \text{index bytes}$ | Add a lookup cache. The expensive MLA read uses only top-k selectors |
 | Sliding Window | $l \times b \times W \times cache_per_token $|
 
+***
 
+* SLA is worst the DSA
 
+***
 
