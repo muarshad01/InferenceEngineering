@@ -61,7 +61,7 @@
 
 #### DeepSeek Sparse Attention
 * Tokens + Index-Key
-
+* MLC Cache ($C_{KV}$) + Indexing Cache()
 
 ***
 
@@ -72,8 +72,8 @@
 #### MLA Latent Vector
 * $cKV_{bright} = x_{bright} \times W_{dKV}$
 #### Index Query and Key
-* $QI_{bright} = h_{bright} \times W_Q^T$ 
-* $KI_{bright} = h_{bright} \times W_K^T$
+* $QI_{bright} = h_{bright} \times W_Q^I$ 
+* $KI_{bright} = h_{bright} \times W_K^I$
 
 ***
 
