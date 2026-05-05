@@ -55,6 +55,6 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 ***
 
-* 1:15:00
+* 1:20:00
 
 ***
