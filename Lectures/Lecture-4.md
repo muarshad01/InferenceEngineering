@@ -57,7 +57,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 * 1:20:00
 
-#### FLOPs during Pre-Fill
+#### FLOPs during Prefill
 * Queries: $N$ Queries of dimension $d$
 * Keys: $N$ Keys of dimension $d$
 
@@ -68,3 +68,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 ***
 
+#### Convolution
+
+
+***
