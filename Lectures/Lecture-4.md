@@ -134,6 +134,7 @@ $$\frac{[Q \times K^T] \times V}{Q \times K^T}$$
  $$
 \begin{align} 
    \text{Linear Attention} &= \frac{[\phi(Q)\times \phi(K^T)] \times V}{\phi(Q) \times \phi(K^T)}\\
+                           &= \frac{\phi(Q)\times [\phi(K^T) \times V]}{\phi(Q) \times \phi(K^T)}\\
 \end{align}
 $$
 
