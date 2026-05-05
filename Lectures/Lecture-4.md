@@ -8,3 +8,17 @@
 * Mamba Architecture
 
 ***
+
+* 25:00
+
+$$l \times b \times s \times \underbrace{n_{heads} \times h}_{\text{embedding dim}} \times 2 \times bytes$$
+
+* Our foucs is now on sequence length (s).
+* We have already seen one approach DSA to tackle this.
+
+* 30:00
+
+#### Sliding-Window Attentin
+
+
+***
