@@ -117,6 +117,10 @@ $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times
 
 * 2:40:00
 
-
+#### How can we magically remove softmax?
+* Can we replace softmax with something which allows me to compute $K^T \times V$ first and still maintains the benefits of softmax?
+#### Softmax benefits
+* ALL positive values with $\sum_{i} 1$
+* Normalized
 
 ***
