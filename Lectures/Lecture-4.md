@@ -44,3 +44,5 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 #### Effective Receptive Field
 * $W \times L$
+
+* 50:00
