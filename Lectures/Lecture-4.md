@@ -58,16 +58,10 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * 1:20:00
 
 #### FLOPs during Pre-Fill
-* $N_{Queries}$ of dimension $d$
-* $N_{Keys}$ of dimension $d$
-* For 1-query, number of FLOPs= $2 \times N \times d$
-* For N-queries, number of FLOPs= $2 \times N^2 \times d$ (Pre-fill), which is $2 \times N \times d$ during decode, as I look at only one query.
+* Queries: $N$ Queries of dimension $d$
+* Keys: $N$ Keys of dimension $d$
 
-
-* For SWA, number of FLOPs = $2 \times N \times W \times d$ (Pre-fill)
-
-
-|   | Pre-Fill | Decode | 
+|   | Prefill | Decode | 
 |---|---|---|
 | MHA   | $2 \times N^2 \times d$        | $2 \times N \times d$|
 | SWA   | $2 \times N \times W \times d$ | $2 \times W \times d$|
