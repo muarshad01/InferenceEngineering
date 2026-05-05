@@ -112,3 +112,9 @@ $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times
 * [Jay Alammar](https://jalammar.github.io/illustrated-transformer/)
 
 ***
+
+* 2:40:00
+
+
+
+***
