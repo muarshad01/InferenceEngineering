@@ -61,10 +61,10 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * Queries: $N$ Queries of dimension $d$
 * Keys: $N$ Keys of dimension $d$
 
-|   | Prefill (Compute Bound Regime) | Decode ($N=1$) - Memory Bound Regime | 
-|---|---|---|
-| MHA   | $2 \times N^2 \times d$        | $2 \times N \times d$ |
-| SWA   | $2 \times N \times W \times d$ | $2 \times W \times d$ |
+| Reduction |   | Prefill (Compute Bound Regime) | Decode (Memory Bound Regime) | 
+|---|---|---|---|
+|               | MHA | $2 \times N^2 \times d$        | $2 \times N \times d$ |
+| $\frac{W}{N}$ | SWA | $2 \times N \times W \times d$ | $2 \times W \times d$ |
 
 ***
 
