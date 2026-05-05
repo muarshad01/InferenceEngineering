@@ -56,7 +56,6 @@
 
 <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-3/codex-1.png" width="300" height="300" />
 
-
 <img src="https://github.com/muarshad01/Inference-Engg/blob/main/images/Lecture-3/codex-2.png" width="300" height="300" />
 
 * You don't have to write a single line of code!
@@ -91,11 +90,11 @@
 * 2:50:00
 
 * DeepSeek seq-length=128K
-* New query -> 128K latent vectors need to be loaded from cache
+* New query -> 128K latent vectors need to be loaded from cache.
 * All the past is not important
-* I want to load top 2048 latent vectors.
-* Instead of reading all 1228 past vectors for a new query, you only read 2028.
-* How d you select those 2048?
+* I want to load top 2,048 latent vectors only.
+* Instead of reading all 128k past vectors for a new query, you only read 2,048.
+* How would you select those 2048?
 
 * 
 * Indexer:
