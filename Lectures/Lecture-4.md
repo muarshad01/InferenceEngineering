@@ -141,6 +141,15 @@ $$
 * Linear \text{softmax}
 * ~ KV-Cache size = $d^2$
 
+#### New Token
+
+ $$
+\begin{align} 
+   \text{Linear Attention} &= \frac{\phi(Q)\times [\phi(K^T) \times V]}{\phi(Q) \times \phi(K^T)}\\
+                           &= \frac{\phi(Q)\times \text{cache}}{\phi(Q) \times cache \phi(K^T)}\\
+\end{align}
+$$
+
 ***
 
 * 2:45:00
