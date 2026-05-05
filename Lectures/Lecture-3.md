@@ -99,8 +99,8 @@
 
 * 
 * Indexer:
-* For all past tokens, you maintain a low dimensional vector called the key indexer.
-* For a new Query, you take dot product with all 128k key indexers.
+* For ALL past tokens, you maintain a low-dimensional vector called the key-indexer.
+* For a new Query, you take dot product with ALL 128k key-indexers.
 * Read top 2,048 from HRAM.
 
 ***
