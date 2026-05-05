@@ -89,7 +89,11 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 * 2:30:00
 
+* $Q(N,d)$
+* $K(N,d)$
+* $V(N,d)$
 * $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times V(N,d)$$
+* Cache Size = $2 \times N \times d$
 
 * Whenever a new token comes, the influence of past is compressed into a small $d \times $ matrix.
 * The whole context is compressed into a small $d \times d$ matrix.
