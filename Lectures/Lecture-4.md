@@ -105,5 +105,7 @@ $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times
 * Whenever a new token comes, the influence of past is compressed into a small $d \times d$ matrix.
 * The whole context is compressed into a small $d \times d$ matrix.
 * Context bottlenexk problem.
+* Size of KV-Cache would reduce by a huge amount and stay fixed, but contxt is compressed into $d \times d$ values and as $N$ increaes, it puts a lot of pressure on this small context to all past tokens.
 
+* 
 ***
