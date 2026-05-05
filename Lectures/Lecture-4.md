@@ -2,7 +2,7 @@
 
 #### Four Paradigmsn for Compressing Attention Across Tokens
 * Full Attention
-* Sliding Attention
+* Sliding Window Attention
 * Linear Attention 
 * State Space Models (Mamba)
 * Mamba Architecture
@@ -57,4 +57,13 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 * 1:20:00
 
+* $N_{Queries}$ of dimension $d$
+* $N_{Keys}$ of dimension $d$
+* For 1-query, number of FLOPs= $2 \times N \times d$
+* For N-queries, number of FLOPs= $2 \times N^2 \times d$ (Prefill), which is $2 \times N \times d$ during decode, as I look at only one query.
+
+* $2\times N^2 \times d$ operation during pre-fill (MHA)
+* $2 \times N \times W \times d$ operation during pre-fill (SWA)
+  
 ***
+
