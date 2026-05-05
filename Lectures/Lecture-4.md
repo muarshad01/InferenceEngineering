@@ -69,6 +69,8 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 ***
 
 #### Convolution
-
+* FFT: $O(N^2) \to O(N \log N)$
 
 ***
+
+
