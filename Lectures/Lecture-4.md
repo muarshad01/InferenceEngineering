@@ -65,8 +65,9 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 | Reduction |   | Prefill (Compute Bound Regime) | Decode (Memory Bound Regime) | 
 |---|---|---|---|
-|               | MHA | $2 \times N^2 \times d$        | $2 \times N \times d$ |
-| $\frac{W}{N}$ | SWA | $2 \times N \times W \times d$ | $2 \times W \times d$ |
+|               | MHA              | $2 \times N^2 \times d$        | $2 \times N \times d$ |
+| $\frac{W}{N}$ | SWA              | $2 \times N \times W \times d$ | $2 \times W \times d$ |
+|               | Linear Attention | $N\times d^2 + N \times d$| |
 
 ***
 
@@ -150,6 +151,9 @@ $$
 \end{align}
 $$
 
+#### Drawback of Linear Attention
+* This is never used in practise
+
 ***
 
 * 2:45:00
@@ -166,3 +170,4 @@ $$
 
 ***
 
+* 3:00:00
