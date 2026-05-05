@@ -20,10 +20,10 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 * 30:00
 
-#### Sliding Window Attentin
+#### [Sliding Window Attention](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch04/06_swa/README.md)
 * N: Sequence length
 * W: Sliding window length
-* Reduction = $\frac{N}{W}$
+* We reduce KV-cache size by a factor of $\frac{W}{N}$
 
 #### Trade-offs
 * Long range dependency is completely lost.
