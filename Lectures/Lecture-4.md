@@ -46,3 +46,15 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * $W \times L$
 
 * 50:00
+
+***
+
+#### Active Research Area
+* Receptive Field of Attention Mechanaism (Promising area of research)
+* Dynamic sliding window sizes ($W=f(L)$)
+
+***
+
+* 1:15:00
+
+***
