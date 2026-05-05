@@ -95,7 +95,7 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times V(N,d)$$
 * Cache Size = $2 \times N \times d$
 
-* What if $\text{softmax}$ is removed and we only have $(Q\timesK^T) \times V$.
+* What if $\text{softmax}$ is removed and we only have $(Q \times K^T) \times V$.
 
 * Whenever a new token comes, the influence of past is compressed into a small $d \times d$ matrix.
 * The whole context is compressed into a small $d \times d$ matrix.
