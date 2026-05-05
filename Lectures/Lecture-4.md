@@ -96,7 +96,10 @@ $$\text{softmax}\bigg(\frac{Q(N,d)\times K^T(d,N)}{\sqrt{d_{Keys}}}\bigg) \times
 * Cache Size = $2 \times N \times d$
 
 * What if $\text{softmax}$ is removed and we only have $(Q \times K^T) \times V$.
-
+* We can first multiply $A(d,d) = K^T(d,N)\times V(N,d)$
+* New token: $B(d,d) = k_t^T(d,1) \times v_t(1,d)$
+* Update cache: $A(d,d)+B(d,d)$
+* __Observation__:
 * Whenever a new token comes, the influence of past is compressed into a small $d \times d$ matrix.
 * The whole context is compressed into a small $d \times d$ matrix.
 * Context bottlenext problem
