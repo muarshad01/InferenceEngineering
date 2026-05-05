@@ -78,3 +78,9 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 ](https://www.youtube.com/watch?v=HnWIHWFbuUQ)
 
 ***
+
+* 2:20:00
+
+#### State Space Model (SSM)
+
+***
