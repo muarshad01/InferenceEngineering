@@ -136,7 +136,9 @@ $$\frac{[Q \times K^T] \times V}{Q \times K^T}$$
 
 * 2:45:00
 
-#### $\phi(X): \text{ELU}(x) + 1$
+#### ELU Function
+* $\phi(X): \text{ELU}(x) + 1$
+
 $$
   \text{ELU}(x)=
   \begin{cases}
