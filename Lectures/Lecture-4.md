@@ -85,6 +85,8 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 
 #### State Space Model (SSM)
 
+$$h_t = A.h_{t_1} + x_t$$
+
 ***
 
 * 2:30:00
