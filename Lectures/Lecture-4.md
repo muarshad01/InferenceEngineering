@@ -146,7 +146,7 @@ $$
  $$
 \begin{align} 
    \text{Linear Attention} &= \frac{\phi(Q)\times [\phi(K^T) \times V]}{\phi(Q) \times \phi(K^T)}\\
-                           &= \frac{\phi(Q)\times \text{cache}}{\phi(Q) \times cache \phi(K^T)}\\
+                           &= \frac{\phi(Q)\times \text{cache for }}{\phi(Q) \times cache \phi(K^T)}\\
 \end{align}
 $$
 
