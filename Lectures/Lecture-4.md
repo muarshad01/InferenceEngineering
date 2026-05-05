@@ -1,4 +1,6 @@
 ## Lecture-4
+
+#### Four Paradigmsn for Compressing Attention Across Tokens
 Full Attention
 Sliding Attention, 
 Linear Attention, 
