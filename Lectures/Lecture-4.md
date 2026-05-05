@@ -137,6 +137,13 @@ $$\frac{[Q \times K^T] \times V}{Q \times K^T}$$
 * 2:45:00
 
 #### $\phi(X): \text{ELU}(x) + 1$
+$$
+  \text{ELU}(x)=
+  \begin{cases}
+    x+1, & \text{if $x>0$}.\\
+    e^{x}, & \text{otherwise}.
+  \end{cases}
+$$
 
 ***
 
