@@ -132,6 +132,11 @@ $$\frac{[Q \times K^T] \times V}{Q \times K^T}$$
 
  $$\frac{[\phi(Q)\times \phi(K^T)] \times V}{\phi(Q) \times \phi(K^T)}$$
 
+***
+
+* 2:45:00
+
+#### $\phi(X): \text{ELU}(x) + 1$
 
 ***
 
