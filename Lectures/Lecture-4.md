@@ -131,7 +131,11 @@ $$\frac{[Q \times K^T] \times V}{Q \times K^T}$$
 
 #### Linear Attention
 
- $$\text{Linear Attention} = \frac{[\phi(Q)\times \phi(K^T)] \times V}{\phi(Q) \times \phi(K^T)}$$
+ $$
+\begin{align} 
+   \text{Linear Attention} &= \frac{[\phi(Q)\times \phi(K^T)] \times V}{\phi(Q) \times \phi(K^T)}\\
+\end{align}
+$$
 
 * Linear \text{softmax}
 * ~ KV-Cache size = $d^2$
