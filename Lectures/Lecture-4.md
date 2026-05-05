@@ -88,3 +88,11 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 ***
 
 * 2:30:00
+
+* $$\text{softmac}\bigg(\frac{Q(N,d)\times K^T(d,N)}{V(N,d)}\bigg)$$
+
+* Whenever a new token comes, the influence of past is compressed into a small $d \times $ matrix.
+* The whole context is compressed into a small $d \times d$ matrix.
+* Context bottlenext problem
+
+***
