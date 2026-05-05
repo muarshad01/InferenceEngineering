@@ -16,9 +16,10 @@ $$l \times b \times \boxed{s} \times \underbrace{n_{heads} \times h}_{\text{embe
 * Our foucs is now on sequence length (s).
 * We have already seen one approach __DeepSeek Sparse Attention (DSA)__ to tackle this.
 
+***
+
 * 30:00
 
-#### Sliding-Window Attentin
-
+#### Sliding Window Attentin
 
 ***
